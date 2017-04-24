@@ -111,7 +111,6 @@ function main (args) {
       new winston.transports.File({
         json: false,
         filename: opts.logFile,
-        maxsize: 1048576,
         level: logLevel
       })
     ],
